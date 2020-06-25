@@ -71,6 +71,6 @@ public class Interview_Exam {
  ```bash
   SELECT first_name, last_name, order_id, order_date, sum(list_price) As sum of order_items.list_price
   FROM customer, order, order_item
-  WHERE  customer.customer_id = order.customer_id AND order.order_id = order_item.order_id	AND order_date LIKE '2018%';
+  WHERE  customer.customer_id = order.customer_id AND order.order_id = order_item.order_id AND order_date LIKE '2018%';
  ```
  
