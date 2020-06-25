@@ -1,7 +1,7 @@
 # Gaitame-Interview-Exam
 ----------
 ### ข้อที่ 1
-- Answer_Interview_Exam_1.java
+- [Answer_Interview_Exam_1.java](https://github.com/Pachtery/Gaitame-Interview-Exam/blob/master/Answer_Interview_Exam_1.java)
 ```bash
 import java.util.ArrayList;
 import java.util.TreeSet;
@@ -71,7 +71,7 @@ public class Answer_Interview_Exam_1 {
  ----------
 ### ข้อที่ 2
 ### 2.1
-- Answer_Interview_Exam_2_1.mdb
+- [Answer_Interview_Exam_2_1.mdb](https://github.com/Pachtery/Gaitame-Interview-Exam/blob/master/Answer_Interview_Exam_2.1.mdb)
  ```bash
   SELECT first_name, last_name,isnull(order_id,'NULL'),isnull(order_date,'NULL')
   FROM customer, order
@@ -79,7 +79,7 @@ public class Answer_Interview_Exam_1 {
  ```
  ----------
 ### 2.2
-- Answer_Interview_Exam_2_2.mdb
+- [Answer_Interview_Exam_2_2.mdb](https://github.com/Pachtery/Gaitame-Interview-Exam/blob/master/Answer_Interview_Exam_2.2.mdb)
  ```bash
   SELECT first_name, last_name, order_id, order_date, sum(list_price) As sum of order_items.list_price
   FROM customer, order, order_item
