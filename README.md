@@ -5,7 +5,7 @@
 import java.util.ArrayList;
 import java.util.TreeSet;
 
-public class Interview_Exam {
+public class Answer_Interview_Exam_1 {
 	private int a[] = new int[101];
 	private int b[] = new int[101];
 	private double powa = 0;
@@ -41,6 +41,14 @@ public class Interview_Exam {
 		set.addAll(arrPowa);
 	}
 
+	/*
+	 * public void printpow() { System.out.println("aPowb: "+arrPowa.size());
+	 * System.out.println(); System.out.println("bPowa: "+arrPowb.size());
+	 * System.out.println(); System.out.println("Set: "+set.size());
+	 * 
+	 * }
+	 */
+
 	public void printAns() {
 		/*
 		 * for (double s : set) { System.out.println(s); }
@@ -49,10 +57,11 @@ public class Interview_Exam {
 	}
 
 	public static void main(String[] args) {
-		Interview_Exam ex = new Interview_Exam();
+		Answer_Interview_Exam_1 ex = new Answer_Interview_Exam_1();
 		ex.inputab();
 		ex.apowb();
 		ex.bpowa();
+		// ex.printpow();
 		ex.printAns();
 	}
 }
